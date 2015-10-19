@@ -1,0 +1,16 @@
+<div data-role="page" data-url="<%= Rho::Application.startURI %>/">
+
+    
+  <div data-role="header" data-position="inline">
+    <h1>SiptestRuby</h1>
+  </div>
+
+  <div data-role="content">
+      <li><a href="<%= url_for :controller =>:Settings, :action => :Show %>" data-role="button" data-icon="grid" data-inline="false">Show</a></li> 
+      <br>
+      <li><input type="text" id="my_text" autofocus></li>
+      <br>
+      <li><a href="<%= url_for :controller =>:Settings, :action => :Hide %>" data-role="button" data-icon="grid" data-inline="false">Hide</a></li>
+  </div>
+
+</div>
